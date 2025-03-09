@@ -1,14 +1,7 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
-import {AuthProvider} from './src/context/AuthContext';
-import AppNavigator from './src/navigation/AppNavigator';
 import {NavigationContainer} from '@react-navigation/native';
+import {AuthProvider} from './context/AuthContext';
+import AppNavigator from './navigation/AppNavigator';
 
 const App = () => {
   return (
@@ -20,4 +13,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App; 
